@@ -1,0 +1,316 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SeaBattle.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SEABATTLE_DIALOG DIALOGEX 0, 0, 322, 206
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_HELP DIALOGEX 0, 0, 186, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Об авторе"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,7,74,172,11,BS_FLAT
+    LTEXT           "**************Морской бой************** Расстановка кораблей-""Корабли"" Игра   с   компом  -  ""Один игрок"" Сетевая      игра      -     ""Сеть"" Автор этой игры: Алексей Волков. С жалобами и предложениями обращаться на e-mail: uruc@rambler.ru. Отвечу всем.",
+                    IDC_STATIC,58,7,121,67,SS_SUNKEN,0,HIDC_STATIC
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,7,11,50,58
+END
+
+IDD_NETWORK DIALOG DISCARDABLE  0, 0, 185, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Сетевая игра"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Выход",IDOK,123,63,54,12,BS_FLAT
+    LISTBOX         IDC_LIST1,7,16,115,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Создать",ID_CREATE_SERV,123,7,54,12,BS_FLAT
+    DEFPUSHBUTTON   "Подключиться",ID_CONNECT,123,20,54,13,BS_FLAT
+    DEFPUSHBUTTON   "Подкл.вручную",ID_BY_HAND,123,35,54,13,BS_FLAT
+    DEFPUSHBUTTON   "Обновить",ID_REFRESH,123,49,54,12,BS_FLAT
+    CTEXT           "Список созданных серверов",IDC_LIST_OF_SERVERS,7,7,114,
+                    9
+    CONTROL         "IPAddress3",IDC_IPADDRESS3,"SysIPAddress32",WS_TABSTOP,
+                    7,7,113,17
+    PUSHBUTTON      "Да",IDC_OK_CON,7,27,57,11
+    PUSHBUTTON      "Отмена",IDC_CANSEL,65,27,55,11
+END
+
+IDD_SAVE_RESULT DIALOG DISCARDABLE  0, 0, 186, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Запись результата"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,65,30,50,14
+    CTEXT           "Введите своё имя",IDC_STATIC,7,7,172,8
+    EDITTEXT        IDC_EDIT1,7,15,172,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SEABATTLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_NETWORK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_SAVE_RESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\Logo.bmp"
+IDB_FOUR_BOTTOM_DECK    BITMAP  DISCARDABLE     "res\\SHIP_4_DECKS.bmp"
+IDB_FOUR_RIGHT_DECK     BITMAP  DISCARDABLE     "res\\SHIP_4_DECKS_R.bmp"
+IDB_ONE_DECK            BITMAP  DISCARDABLE     "res\\SHIP_1_DECK.bmp"
+IDB_ONE_DECK1           BITMAP  DISCARDABLE     "res\\ont_deck.bmp"
+IDB_TWO_BOTTOM_DECK     BITMAP  DISCARDABLE     "res\\SHIP_2_DECKS.bmp"
+IDB_TWO_RIGHT_DECK      BITMAP  DISCARDABLE     "res\\SHIP_2_DECKS_R.bmp"
+IDB_THREE_BOTTOM_DECK   BITMAP  DISCARDABLE     "res\\SHIP_3_DECKS.bmp"
+IDB_THREE_RIGHT_DECK    BITMAP  DISCARDABLE     "res\\SHIP_3_DECKS_R.bmp"
+IDB_FIRE                BITMAP  DISCARDABLE     "res\\Fire.bmp"
+IDB_TURNON              BITMAP  DISCARDABLE     "res\\TURNON.bmp"
+IDB_CLOSE               BITMAP  DISCARDABLE     "res\\CLOSE.bmp"
+IDB_HIDE                BITMAP  DISCARDABLE     "res\\HIDE.bmp"
+IDB_TURNOUT             BITMAP  DISCARDABLE     "res\\TURNOUT.bmp"
+IDB_MONOCHROME_FIRE     BITMAP  DISCARDABLE     "res\\MonochromeFire.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SIGHT               CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_FIRE                CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_DEFAULT             CURSOR  DISCARDABLE     "res\\cur00003.cur"
+IDC_MOVE                CURSOR  DISCARDABLE     "res\\H_move.cur"
+IDC_HAND                CURSOR  DISCARDABLE     "res\\cur00002.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+JPG_BT_SHIPS            IMAGE   DISCARDABLE     "res\\BT_Ships.jpg"
+JPG_BT_ACT_SHIPS        IMAGE   DISCARDABLE     "res\\BT_ACT_Ships.jpg"
+JPG_BT_NETWORK          IMAGE   DISCARDABLE     "res\\BT_Network.jpg"
+JPG_BT_ACT_NETWORK      IMAGE   DISCARDABLE     "res\\BT_ACT_Network.jpg"
+JPG_BT_ACT_SINGLE       IMAGE   DISCARDABLE     "res\\BT_ACT_NEW_GAME.jpg"
+JPG_BT_SINGLE           IMAGE   DISCARDABLE     "res\\BT_NEW_GAME.jpg"
+JPG_BACKGROUND          IMAGE   DISCARDABLE     "res\\BackGround.jpg"
+JPG_BT_ACT_HELP         IMAGE   DISCARDABLE     "res\\BT_ACT_Help.jpg"
+JPG_BT_HELP             IMAGE   DISCARDABLE     "res\\BT_Help.jpg"
+JPG_TITLE               IMAGE   DISCARDABLE     "res\\Title.jpg"
+JPG_CLOSE               IMAGE   DISCARDABLE     "res\\CLOSE.jpg"
+JPG_HIDE                IMAGE   DISCARDABLE     "res\\HIDE.jpg"
+JPG_TURNON              IMAGE   DISCARDABLE     "res\\OPEN.jpg"
+JPG_TURNOFF             IMAGE   DISCARDABLE     "res\\TURNOFF.jpg"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SeaBattle MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SeaBattle\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SeaBattle.EXE\0"
+            VALUE "ProductName", "SeaBattle Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\SeaBattle.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

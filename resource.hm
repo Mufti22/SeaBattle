@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by SeaBattle.rc
+//
+#define HIDC_STATIC                     0x808fffff    // IDD_HELP

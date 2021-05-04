@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SeaBattle - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/SeaBattle.res" /d "NDEBUG" /d "_AFXDLL" "D:\MyProgrammsOnC++\SeaBattle(Full version)\SeaBattle.rc"" 
+Creating temporary file "C:\DOCUME~1\Nestor\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SeaBattle.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\ButWnd.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\MovesBox.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\MyButton.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\NetworkDlg.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\Picture.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\SaveDialog.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\SeaBattle.cpp"
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\SeaBattleDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Nestor\LOCALS~1\Temp\RSP139.tmp" 
+Creating temporary file "C:\DOCUME~1\Nestor\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SeaBattle.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProgrammsOnC++\SeaBattle(Full version)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Nestor\LOCALS~1\Temp\RSP13A.tmp" 
+Creating temporary file "C:\DOCUME~1\Nestor\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SeaBattle.pdb" /machine:I386 /out:"Release/SeaBattle.exe" 
+".\Release\ButWnd.obj"
+".\Release\Field.obj"
+".\Release\MovesBox.obj"
+".\Release\MyButton.obj"
+".\Release\NetworkDlg.obj"
+".\Release\Picture.obj"
+".\Release\SaveDialog.obj"
+".\Release\SeaBattle.obj"
+".\Release\SeaBattleDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SeaBattle.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Nestor\LOCALS~1\Temp\RSP13B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ButWnd.cpp
+Field.cpp
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(838) : warning C4101: 'cnt' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(835) : warning C4101: 'bitspr' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(834) : warning C4101: 'bmist' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(837) : warning C4101: 'i' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(837) : warning C4101: 'j' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(834) : warning C4101: 'bm' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(835) : warning C4101: 'bitsist' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(1278) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(1279) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(1373) : warning C4101: 'b_p' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(1373) : warning C4101: 'g_p' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\Field.cpp(1373) : warning C4101: 'r_p' : unreferenced local variable
+MovesBox.cpp
+MyButton.cpp
+NetworkDlg.cpp
+Picture.cpp
+SaveDialog.cpp
+SeaBattle.cpp
+SeaBattleDlg.cpp
+D:\MyProgrammsOnC++\SeaBattle(Full version)\ClientServer.h(261) : warning C4101: 'c' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\ClientServer.h(264) : warning C4101: 'addr' : unreferenced local variable
+D:\MyProgrammsOnC++\SeaBattle(Full version)\SeaBattleDlg.cpp(294) : warning C4800: 'long' : forcing value to bool 'true' or 'false' (performance warning)
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SeaBattle.exe - 0 error(s), 15 warning(s)
+</pre>
+</body>
+</html>
